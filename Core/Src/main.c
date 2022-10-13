@@ -60,7 +60,7 @@ UART_HandleTypeDef huart3;
 			#define DcPIND_12ON() HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12,1)
 			#define DcPIND_12OFF() HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12,0)
 
-			uint8_t ActiveServo; // add 0723
+			uint8_t ActiveServo; 
 
 /* USER CODE END PV */
 
